@@ -28,6 +28,7 @@ app.get('/videoplayer', (req, res) =>{
     }
     res.writeHead(206, headers);
 
+
     //create video stream and pipe it with the response
     const stream = fs.createReadStream(videoPath, {start, end});
     stream.pipe(res);
