@@ -1,5 +1,9 @@
-# video_player
+# video player
 
-#this is from a tutorial
+# Purpose
 
-It uses node.js to send a video to the browser.
+This is a simple node.js program that was developed to gain experience with streams from Node.js
+
+# How does it work?
+
+It breaks down the video into chunks and sends each chunck to the client.  The client then reassembles the chuncks into a playable video. 
